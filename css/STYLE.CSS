@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@300&display=swap');
+*{
+    margin:1px;
+    padding:5px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#wrap{
+    width: 1000px;
+    border: 1px solid #111010;
+    padding: 30px;
+    background: #e4e4f0ee
+}
+
+
+#h1, h2, p, h4, .pro h3, p {
+     text-align: center;
+}
+
+nav{
+    background-color: rgb(226, 213, 137);
+    padding: 3px 60px;
+    margin: 0 -20 px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+.pro h4, .cons h4{
+	font-weight: bolder;
+}
+
+
+nav li a{
+
+    margin: 6px;
+    padding: 10px;
+    background:#7879dfee
+    color=green
+}
+
+.pro, logo-editor{
+
+    float: right;
+}
+
+.pro, .cons{
+
+	width: 600px;
+	margin: 5px 25px;
+	font-family: monospace;
+	border: 1px dashed;
+	padding: 5px;
+}
+
+
+.editor-img img{
+    width:600px;
+}
+
+.editor-img img{
+    width:400px;
+}
+
+.logo-editor{
+    float: right;
+    text-align:center;
+}
+
+.logo-editor img{
+    width: 200px;
+}
+
+.editor-img img, .logo-editor img{
+	margin: 15px;
+}
+
+.cons{
+	float: left;
+}
+
+.intro{
+    display: block;
+    margin: 70px;
+}
+
+.pro, .cons{
+    width: 550px;
+    margin: 5px 25px;
+    font-family: monospace;
+    border: 1px dashed;
+    padding: 5px;
+}
+
+.retour{
+	display: block;
+	text-align: right;
+}
+
+button{
+	padding: 10px 15px;
+	border-radius: 19%;
+	background: #42a830;
+}
+
+table, th, td{
+	border: 2px solid #000;
+	text-align: center;
+	margin: 40px 40px;
+	padding: 20px;
+}
